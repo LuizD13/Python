@@ -1,13 +1,14 @@
 """
 Funções úteis (built-in)
-isnumeric - retorna true se todos os caracteres da string são números e positivos
-isdigit
+isnumeric - retorna true se todos os caracteres da string são números
+isdigit - retorna true se todos os caracteres fazem parte de um inteiro
 isdecimal - retorna true se todos os caracteres da string são decimais
 """
 
 num1 = input('Digite um número: ')
 num2 = input('Digite outro número: ')
 
-print(num1.isdecimal())
-
-print(num2.isnumeric())
+try:
+    print(int(num1)+int(num2))
+except:
+    print('Não pude converter.')
