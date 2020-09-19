@@ -1,5 +1,5 @@
 nome = 'Luiz'
-idade=32
+idade=2
 altura=1.80
 peso=80
 ano_atual=2020

@@ -16,8 +16,8 @@ while i <= 10:
 x = 0
 y = 0
 
-while x < 10:
-    while y < 5:
+while x <= 10:
+    while y <= 5:
         print(f'({x}),({y})')
         y += 1
     y = 0
